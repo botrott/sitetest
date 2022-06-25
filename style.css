@@ -88,11 +88,11 @@ h3 {
   margin-right: 10px;
 
   font-size: 30px;
-  color: rgb(82, 197, 15);
+  color: #000;
 }
 
 .hero__link:hover {
-  color: #626969;
+  color: #4facfe;
 }
 
 
@@ -100,9 +100,9 @@ h3 {
   max-width: 500px;
   justify-self: center;
   overflow: hidden;
-  border: 10px solid rgb(32, 189, 18);
+  border: 10px solid #fff;
 
-  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
   animation: ava-animate 5s infinite alternate;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, .5);
@@ -153,19 +153,19 @@ h3 {
 
 @keyframes ava-animate {
   0% {
-    border-radius: 6% 94% 0% 100% / 0% 89% 11% 100%;
+    border-radius: 62% 38% 72% 28% / 67% 32% 68% 33%;
   }
 
   40% {
-    border-radius: 6% 94% 0% 100% / 0% 1% 99% 100% ;
+    border-radius: 37% 63% 53% 47% / 67% 32% 68% 33%;
   }
 
   60% {
-    border-radius: 15% 85% 100% 0% / 0% 7% 93% 100% ;
+    border-radius: 23% 77% 39% 61% / 78% 54% 46% 22%;
   }
 
   100% {
-    border-radius: 79% 21% 100% 0% / 100% 89% 11% 0% ;
+    border-radius: 18% 82% 24% 76% / 43% 54% 46% 57%;
   }
 }
 
